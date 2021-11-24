@@ -31,13 +31,20 @@ Script ini berfungsi untuk menkonversi file eksistensi .csv menjadi file .tfreco
 TensorFlow
 ├───scripts
 │   └───preprocessing
+│     └───generate_tfrecord.py 
 └───workspace
     └───training_demo
         ├───annotations
+        │   └───label_map.pbtxt 
         ├───exported-models
         ├───images
         │   ├───test
+        │   │     └───test images with corresponding XML files
         │   └───train
+        │         └───train images with corresponding XML files
         ├───models
+        │   └───my_ssd_resnet50_v1_fpn
+        │     └───pipeline.config
         └───pre-trained-models
+            └───ssd_resnet50_v1_fpn_640x640_coco17_tpu-8
 ```
