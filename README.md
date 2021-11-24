@@ -6,3 +6,14 @@ Siapkan dataset berupa gambar (.jpg) dan beri label menggunakan labelImg. LabelI
 Dalam pemberian label harus diingat huruf/kata yang digunakan.
 
 # 2. Menulis kelas dataset pada .pbtxt
+
+```
+item {
+      id: 1
+      name: 'apple'
+}
+item {
+     id: 2
+     name: 'orange'
+}
+```
