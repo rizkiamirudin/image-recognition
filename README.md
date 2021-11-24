@@ -1,4 +1,4 @@
-# image-recognition
+# Image Recognition
 Klasifikasi tanaman selada dan seledri mengunakan Google Colab
 
 # 1. Pra-pengolahan dataset
